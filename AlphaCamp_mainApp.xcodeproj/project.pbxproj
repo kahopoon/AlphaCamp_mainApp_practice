@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		113975421CB8F33800034F80 /* PreLoginWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113975411CB8F33800034F80 /* PreLoginWebView.swift */; };
-		113975471CB9005B00034F80 /* LogoutProcess_function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113975461CB9005B00034F80 /* LogoutProcess_function.swift */; };
-		1139754A1CB9055800034F80 /* navDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113975491CB9055800034F80 /* navDefault.swift */; };
+		11037A6F1CBA4BB300286F48 /* navDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11037A6E1CBA4BB300286F48 /* navDefault.swift */; };
+		11037A711CBA4BC400286F48 /* LoginProcess_function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11037A701CBA4BC400286F48 /* LoginProcess_function.swift */; };
+		11037A731CBA4BED00286F48 /* PreLoginWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11037A721CBA4BED00286F48 /* PreLoginWebView.swift */; };
+		11037A751CBA4BFD00286F48 /* LogoutProcess_function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11037A741CBA4BFD00286F48 /* LogoutProcess_function.swift */; };
+		11037A771CBA4C1500286F48 /* itemDetail_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11037A761CBA4C1500286F48 /* itemDetail_controller.swift */; };
 		1139754E1CB93B6B00034F80 /* settingsPage_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139754D1CB93B6B00034F80 /* settingsPage_controller.swift */; };
 		113975521CB9562100034F80 /* AboutUS_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113975511CB9562100034F80 /* AboutUS_controller.swift */; };
-		114B77E01CB6B567003994E9 /* itemDetail_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114B77DF1CB6B567003994E9 /* itemDetail_controller.swift */; };
 		114CCEC21CAE4A3800DEE0B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEC11CAE4A3800DEE0B4 /* AppDelegate.swift */; };
 		114CCEC41CAE4A3800DEE0B4 /* EventMain_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEC31CAE4A3800DEE0B4 /* EventMain_controller.swift */; };
 		114CCEC61CAE4A3800DEE0B4 /* Login_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEC51CAE4A3800DEE0B4 /* Login_controller.swift */; };
@@ -24,16 +25,16 @@
 		114CCEDA1CAE874900DEE0B4 /* courseItems_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCED91CAE874900DEE0B4 /* courseItems_controller.swift */; };
 		114CCEDC1CAE878700DEE0B4 /* courseItems_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEDB1CAE878700DEE0B4 /* courseItems_cell.swift */; };
 		11B3C3031CB3B9AE00C0495E /* PrepareLogin_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3021CB3B9AE00C0495E /* PrepareLogin_controller.swift */; };
-		11B3C3051CB3C1C800C0495E /* LoginProcess_function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3041CB3C1C800C0495E /* LoginProcess_function.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		113975411CB8F33800034F80 /* PreLoginWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreLoginWebView.swift; sourceTree = "<group>"; };
-		113975461CB9005B00034F80 /* LogoutProcess_function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutProcess_function.swift; sourceTree = "<group>"; };
-		113975491CB9055800034F80 /* navDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navDefault.swift; sourceTree = "<group>"; };
+		11037A6E1CBA4BB300286F48 /* navDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = navDefault.swift; path = AlphaCamp_mainApp/navDefault.swift; sourceTree = "<group>"; };
+		11037A701CBA4BC400286F48 /* LoginProcess_function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginProcess_function.swift; path = AlphaCamp_mainApp/LoginProcess_function.swift; sourceTree = "<group>"; };
+		11037A721CBA4BED00286F48 /* PreLoginWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreLoginWebView.swift; path = AlphaCamp_mainApp/PreLoginWebView.swift; sourceTree = "<group>"; };
+		11037A741CBA4BFD00286F48 /* LogoutProcess_function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogoutProcess_function.swift; path = AlphaCamp_mainApp/LogoutProcess_function.swift; sourceTree = "<group>"; };
+		11037A761CBA4C1500286F48 /* itemDetail_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = itemDetail_controller.swift; path = AlphaCamp_mainApp/itemDetail_controller.swift; sourceTree = "<group>"; };
 		1139754D1CB93B6B00034F80 /* settingsPage_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsPage_controller.swift; sourceTree = "<group>"; };
 		113975511CB9562100034F80 /* AboutUS_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUS_controller.swift; sourceTree = "<group>"; };
-		114B77DF1CB6B567003994E9 /* itemDetail_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemDetail_controller.swift; sourceTree = "<group>"; };
 		114CCEBE1CAE4A3800DEE0B4 /* AlphaCamp_mainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaCamp_mainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		114CCEC11CAE4A3800DEE0B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		114CCEC31CAE4A3800DEE0B4 /* EventMain_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMain_controller.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		114CCED91CAE874900DEE0B4 /* courseItems_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = courseItems_controller.swift; path = AlphaCamp_mainApp/courseItems_controller.swift; sourceTree = "<group>"; };
 		114CCEDB1CAE878700DEE0B4 /* courseItems_cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = courseItems_cell.swift; path = AlphaCamp_mainApp/courseItems_cell.swift; sourceTree = "<group>"; };
 		11B3C3021CB3B9AE00C0495E /* PrepareLogin_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrepareLogin_controller.swift; path = AlphaCamp_mainApp/PrepareLogin_controller.swift; sourceTree = "<group>"; };
-		11B3C3041CB3C1C800C0495E /* LoginProcess_function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProcess_function.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		113975431CB8F64600034F80 /* Logout */ = {
 			isa = PBXGroup;
 			children = (
-				113975461CB9005B00034F80 /* LogoutProcess_function.swift */,
+				11037A741CBA4BFD00286F48 /* LogoutProcess_function.swift */,
 			);
 			name = Logout;
 			path = ..;
@@ -73,7 +73,7 @@
 		113975481CB9052E00034F80 /* Navigation Bar Appearance */ = {
 			isa = PBXGroup;
 			children = (
-				113975491CB9055800034F80 /* navDefault.swift */,
+				11037A6E1CBA4BB300286F48 /* navDefault.swift */,
 			);
 			name = "Navigation Bar Appearance";
 			path = ..;
@@ -117,7 +117,7 @@
 		114B77DE1CB6B530003994E9 /* Item Detail */ = {
 			isa = PBXGroup;
 			children = (
-				114B77DF1CB6B567003994E9 /* itemDetail_controller.swift */,
+				11037A761CBA4C1500286F48 /* itemDetail_controller.swift */,
 			);
 			name = "Item Detail";
 			sourceTree = "<group>";
@@ -168,10 +168,10 @@
 		11B3C3011CB3B4E300C0495E /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				11B3C3041CB3C1C800C0495E /* LoginProcess_function.swift */,
+				11037A701CBA4BC400286F48 /* LoginProcess_function.swift */,
 				11B3C3021CB3B9AE00C0495E /* PrepareLogin_controller.swift */,
 				114CCEC51CAE4A3800DEE0B4 /* Login_controller.swift */,
-				113975411CB8F33800034F80 /* PreLoginWebView.swift */,
+				11037A721CBA4BED00286F48 /* PreLoginWebView.swift */,
 			);
 			name = Login;
 			path = ..;
@@ -266,21 +266,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113975471CB9005B00034F80 /* LogoutProcess_function.swift in Sources */,
 				114CCED81CAE70D100DEE0B4 /* mainList_cell.swift in Sources */,
 				114CCEC61CAE4A3800DEE0B4 /* Login_controller.swift in Sources */,
-				113975421CB8F33800034F80 /* PreLoginWebView.swift in Sources */,
+				11037A711CBA4BC400286F48 /* LoginProcess_function.swift in Sources */,
 				114CCED61CAE5BED00DEE0B4 /* mainlList_controller.swift in Sources */,
+				11037A751CBA4BFD00286F48 /* LogoutProcess_function.swift in Sources */,
+				11037A6F1CBA4BB300286F48 /* navDefault.swift in Sources */,
 				114CCEDC1CAE878700DEE0B4 /* courseItems_cell.swift in Sources */,
 				113975521CB9562100034F80 /* AboutUS_controller.swift in Sources */,
+				11037A731CBA4BED00286F48 /* PreLoginWebView.swift in Sources */,
 				114CCEDA1CAE874900DEE0B4 /* courseItems_controller.swift in Sources */,
 				1139754E1CB93B6B00034F80 /* settingsPage_controller.swift in Sources */,
+				11037A771CBA4C1500286F48 /* itemDetail_controller.swift in Sources */,
 				11B3C3031CB3B9AE00C0495E /* PrepareLogin_controller.swift in Sources */,
 				114CCEC21CAE4A3800DEE0B4 /* AppDelegate.swift in Sources */,
-				114B77E01CB6B567003994E9 /* itemDetail_controller.swift in Sources */,
-				1139754A1CB9055800034F80 /* navDefault.swift in Sources */,
 				114CCEC41CAE4A3800DEE0B4 /* EventMain_controller.swift in Sources */,
-				11B3C3051CB3C1C800C0495E /* LoginProcess_function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
