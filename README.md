@@ -24,3 +24,30 @@
 ![Alt text](/screenshots/settings.png?raw=true "settings view")
 ![Alt text](/screenshots/profile-update.png?raw=true "profile update")
 ![Alt text](/screenshots/profile-updateResponse.png?raw=true "profile update response")
+
+##PrepareLogin_controller.swift
+```swift
+override func viewWillAppear(animated: Bool) {        
+        let userDefault = NSUserDefaults.standardUserDefaults()
+        if userDefault.objectForKey("login_username") != nil && userDefault.objectForKey("login_password") != nil {
+            let username = userDefault.objectForKey("login_username"),password = userDefault.objectForKey("login_password")
+            loginProcess(username as! String, password: password as! String, completion: { (result) in
+                if result == true {
+                    dispatch_async(dispatch_get_main_queue()) {
+                        let main_screen = self.storyboard!.instantiateViewControllerWithIdentifier("main_screen") as! UITabBarController
+                        self.presentViewController(main_screen, animated:true, completion: nil)
+                    }
+                } else {
+                    dispatch_async(dispatch_get_main_queue()) {
+                        self.performSegueWithIdentifier("showLogin", sender: self)
+                    }
+                }
+            })
+        } else {
+            dispatch_async(dispatch_get_main_queue()) {
+                self.performSegueWithIdentifier("showLogin", sender: self)
+            }
+        }
+    }
+```
+start of the app, it will first search if userdefault contains login information. if no, redirect to login page, if yes, execute login process that defined on LoginProcess_function.swift. if action success, redirect to main_screen (at tabbar controller), if failed, rediect to login page
