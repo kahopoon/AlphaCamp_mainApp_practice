@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113975421CB8F33800034F80 /* PreLoginWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113975411CB8F33800034F80 /* PreLoginWebView.swift */; };
+		113975471CB9005B00034F80 /* LogoutProcess_function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113975461CB9005B00034F80 /* LogoutProcess_function.swift */; };
+		1139754A1CB9055800034F80 /* navDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113975491CB9055800034F80 /* navDefault.swift */; };
+		1139754E1CB93B6B00034F80 /* settingsPage_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139754D1CB93B6B00034F80 /* settingsPage_controller.swift */; };
+		113975521CB9562100034F80 /* AboutUS_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113975511CB9562100034F80 /* AboutUS_controller.swift */; };
+		114B77E01CB6B567003994E9 /* itemDetail_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114B77DF1CB6B567003994E9 /* itemDetail_controller.swift */; };
 		114CCEC21CAE4A3800DEE0B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEC11CAE4A3800DEE0B4 /* AppDelegate.swift */; };
-		114CCEC41CAE4A3800DEE0B4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEC31CAE4A3800DEE0B4 /* FirstViewController.swift */; };
-		114CCEC61CAE4A3800DEE0B4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEC51CAE4A3800DEE0B4 /* SecondViewController.swift */; };
+		114CCEC41CAE4A3800DEE0B4 /* EventMain_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEC31CAE4A3800DEE0B4 /* EventMain_controller.swift */; };
+		114CCEC61CAE4A3800DEE0B4 /* Login_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEC51CAE4A3800DEE0B4 /* Login_controller.swift */; };
 		114CCEC91CAE4A3800DEE0B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114CCEC71CAE4A3800DEE0B4 /* Main.storyboard */; };
 		114CCECB1CAE4A3800DEE0B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114CCECA1CAE4A3800DEE0B4 /* Assets.xcassets */; };
 		114CCECE1CAE4A3800DEE0B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114CCECC1CAE4A3800DEE0B4 /* LaunchScreen.storyboard */; };
+		114CCED61CAE5BED00DEE0B4 /* mainlList_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCED51CAE5BED00DEE0B4 /* mainlList_controller.swift */; };
+		114CCED81CAE70D100DEE0B4 /* mainList_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCED71CAE70D100DEE0B4 /* mainList_cell.swift */; };
+		114CCEDA1CAE874900DEE0B4 /* courseItems_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCED91CAE874900DEE0B4 /* courseItems_controller.swift */; };
+		114CCEDC1CAE878700DEE0B4 /* courseItems_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CCEDB1CAE878700DEE0B4 /* courseItems_cell.swift */; };
+		11B3C3031CB3B9AE00C0495E /* PrepareLogin_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3021CB3B9AE00C0495E /* PrepareLogin_controller.swift */; };
+		11B3C3051CB3C1C800C0495E /* LoginProcess_function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3041CB3C1C800C0495E /* LoginProcess_function.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		113975411CB8F33800034F80 /* PreLoginWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreLoginWebView.swift; sourceTree = "<group>"; };
+		113975461CB9005B00034F80 /* LogoutProcess_function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutProcess_function.swift; sourceTree = "<group>"; };
+		113975491CB9055800034F80 /* navDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navDefault.swift; sourceTree = "<group>"; };
+		1139754D1CB93B6B00034F80 /* settingsPage_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsPage_controller.swift; sourceTree = "<group>"; };
+		113975511CB9562100034F80 /* AboutUS_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUS_controller.swift; sourceTree = "<group>"; };
+		114B77DF1CB6B567003994E9 /* itemDetail_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemDetail_controller.swift; sourceTree = "<group>"; };
 		114CCEBE1CAE4A3800DEE0B4 /* AlphaCamp_mainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaCamp_mainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		114CCEC11CAE4A3800DEE0B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		114CCEC31CAE4A3800DEE0B4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		114CCEC51CAE4A3800DEE0B4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		114CCEC31CAE4A3800DEE0B4 /* EventMain_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMain_controller.swift; sourceTree = "<group>"; };
+		114CCEC51CAE4A3800DEE0B4 /* Login_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Login_controller.swift; path = AlphaCamp_mainApp/Login_controller.swift; sourceTree = "<group>"; };
 		114CCEC81CAE4A3800DEE0B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		114CCECA1CAE4A3800DEE0B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		114CCECD1CAE4A3800DEE0B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		114CCECF1CAE4A3800DEE0B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114CCED51CAE5BED00DEE0B4 /* mainlList_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mainlList_controller.swift; path = AlphaCamp_mainApp/mainlList_controller.swift; sourceTree = "<group>"; };
+		114CCED71CAE70D100DEE0B4 /* mainList_cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mainList_cell.swift; path = AlphaCamp_mainApp/mainList_cell.swift; sourceTree = "<group>"; };
+		114CCED91CAE874900DEE0B4 /* courseItems_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = courseItems_controller.swift; path = AlphaCamp_mainApp/courseItems_controller.swift; sourceTree = "<group>"; };
+		114CCEDB1CAE878700DEE0B4 /* courseItems_cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = courseItems_cell.swift; path = AlphaCamp_mainApp/courseItems_cell.swift; sourceTree = "<group>"; };
+		11B3C3021CB3B9AE00C0495E /* PrepareLogin_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrepareLogin_controller.swift; path = AlphaCamp_mainApp/PrepareLogin_controller.swift; sourceTree = "<group>"; };
+		11B3C3041CB3C1C800C0495E /* LoginProcess_function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProcess_function.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113975431CB8F64600034F80 /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				113975461CB9005B00034F80 /* LogoutProcess_function.swift */,
+			);
+			name = Logout;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		113975481CB9052E00034F80 /* Navigation Bar Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				113975491CB9055800034F80 /* navDefault.swift */,
+			);
+			name = "Navigation Bar Appearance";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1139754B1CB93A8B00034F80 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1139754C1CB93B4400034F80 /* Setting */,
+				113975481CB9052E00034F80 /* Navigation Bar Appearance */,
+				11B3C3011CB3B4E300C0495E /* Login */,
+				113975431CB8F64600034F80 /* Logout */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		1139754C1CB93B4400034F80 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				1139754D1CB93B6B00034F80 /* settingsPage_controller.swift */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		1139754F1CB9522800034F80 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				114CCEC31CAE4A3800DEE0B4 /* EventMain_controller.swift */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		113975501CB955F700034F80 /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				113975511CB9562100034F80 /* AboutUS_controller.swift */,
+			);
+			name = "About Us";
+			sourceTree = "<group>";
+		};
+		114B77DE1CB6B530003994E9 /* Item Detail */ = {
+			isa = PBXGroup;
+			children = (
+				114B77DF1CB6B567003994E9 /* itemDetail_controller.swift */,
+			);
+			name = "Item Detail";
+			sourceTree = "<group>";
+		};
 		114CCEB51CAE4A3800DEE0B4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +141,58 @@
 		114CCEC01CAE4A3800DEE0B4 /* AlphaCamp_mainApp */ = {
 			isa = PBXGroup;
 			children = (
+				1139754B1CB93A8B00034F80 /* Settings */,
+				11B3C3001CB3B4C200C0495E /* Class */,
 				114CCEC11CAE4A3800DEE0B4 /* AppDelegate.swift */,
-				114CCEC31CAE4A3800DEE0B4 /* FirstViewController.swift */,
-				114CCEC51CAE4A3800DEE0B4 /* SecondViewController.swift */,
+				113975501CB955F700034F80 /* About Us */,
+				1139754F1CB9522800034F80 /* Event */,
 				114CCEC71CAE4A3800DEE0B4 /* Main.storyboard */,
 				114CCECA1CAE4A3800DEE0B4 /* Assets.xcassets */,
 				114CCECC1CAE4A3800DEE0B4 /* LaunchScreen.storyboard */,
 				114CCECF1CAE4A3800DEE0B4 /* Info.plist */,
 			);
 			path = AlphaCamp_mainApp;
+			sourceTree = "<group>";
+		};
+		11B3C3001CB3B4C200C0495E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				11B3C3061CB3D47900C0495E /* Main */,
+				114CCED51CAE5BED00DEE0B4 /* mainlList_controller.swift */,
+				114CCED71CAE70D100DEE0B4 /* mainList_cell.swift */,
+			);
+			name = Class;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		11B3C3011CB3B4E300C0495E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				11B3C3041CB3C1C800C0495E /* LoginProcess_function.swift */,
+				11B3C3021CB3B9AE00C0495E /* PrepareLogin_controller.swift */,
+				114CCEC51CAE4A3800DEE0B4 /* Login_controller.swift */,
+				113975411CB8F33800034F80 /* PreLoginWebView.swift */,
+			);
+			name = Login;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		11B3C3061CB3D47900C0495E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				11B3C3071CB4070E00C0495E /* Coure items */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		11B3C3071CB4070E00C0495E /* Coure items */ = {
+			isa = PBXGroup;
+			children = (
+				114B77DE1CB6B530003994E9 /* Item Detail */,
+				114CCEDB1CAE878700DEE0B4 /* courseItems_cell.swift */,
+				114CCED91CAE874900DEE0B4 /* courseItems_controller.swift */,
+			);
+			name = "Coure items";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +266,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				114CCEC61CAE4A3800DEE0B4 /* SecondViewController.swift in Sources */,
+				113975471CB9005B00034F80 /* LogoutProcess_function.swift in Sources */,
+				114CCED81CAE70D100DEE0B4 /* mainList_cell.swift in Sources */,
+				114CCEC61CAE4A3800DEE0B4 /* Login_controller.swift in Sources */,
+				113975421CB8F33800034F80 /* PreLoginWebView.swift in Sources */,
+				114CCED61CAE5BED00DEE0B4 /* mainlList_controller.swift in Sources */,
+				114CCEDC1CAE878700DEE0B4 /* courseItems_cell.swift in Sources */,
+				113975521CB9562100034F80 /* AboutUS_controller.swift in Sources */,
+				114CCEDA1CAE874900DEE0B4 /* courseItems_controller.swift in Sources */,
+				1139754E1CB93B6B00034F80 /* settingsPage_controller.swift in Sources */,
+				11B3C3031CB3B9AE00C0495E /* PrepareLogin_controller.swift in Sources */,
 				114CCEC21CAE4A3800DEE0B4 /* AppDelegate.swift in Sources */,
-				114CCEC41CAE4A3800DEE0B4 /* FirstViewController.swift in Sources */,
+				114B77E01CB6B567003994E9 /* itemDetail_controller.swift in Sources */,
+				1139754A1CB9055800034F80 /* navDefault.swift in Sources */,
+				114CCEC41CAE4A3800DEE0B4 /* EventMain_controller.swift in Sources */,
+				11B3C3051CB3C1C800C0495E /* LoginProcess_function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +432,7 @@
 				114CCED41CAE4A3800DEE0B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
